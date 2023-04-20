@@ -1,19 +1,86 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ecological Store</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+	<title>My Professional Profile</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 </head>
 <body>
-  <div class="header">
-    <h1>Ecological Store</h1>
-  </div>
-  <div class="products">
-    <!-- Display products here -->
-  </div>
-  <div class="cart">
-    <!-- Display cart here -->
-  </div>
-  <script src="app.js"></script>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#about-me">About Me</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#experience">Experience</a></li>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="about-me">
+			<div class="section-header">
+				<h2>About Me</h2>
+			</div>
+			<div class="section-content">
+				<img src="https://picsum.photos/200" alt="Profile Picture">
+				<p>Hello, my name is John Doe and I'm a web developer. I have experience in HTML, CSS, JavaScript, and PHP. I'm always looking for new challenges and opportunities to learn.</p>
+			</div>
+		</section>
+		<section id="skills">
+			<div class="section-header">
+				<h2>Skills</h2>
+			</div>
+			<div class="section-content">
+				<ul>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JavaScript</li>
+					<li>PHP</li>
+					<li>MySQL</li>
+				</ul>
+			</div>
+		</section>
+		<section id="experience">
+			<div class="section-header">
+				<h2>Experience</h2>
+			</div>
+			<div class="section-content">
+				<ul>
+					<li>Web Developer at XYZ Company (2018-2021)</li>
+					<li>Freelance Web Developer (2016-2018)</li>
+				</ul>
+			</div>
+		</section>
+		<section id="education">
+			<div class="section-header">
+				<h2>Education</h2>
+			</div>
+			<div class="section-content">
+				<ul>
+					<li>Bachelor's Degree in Computer Science from ABC University (2012-2016)</li>
+				</ul>
+			</div>
+		</section>
+		<section id="contact">
+			<div class="section-header">
+				<h2>Contact</h2>
+			</div>
+			<div class="section-content">
+				<form method="post" action="send-email.php">
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name" required>
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" required>
+					<label for="message">Message:</label>
+					<textarea id="message" name="message" required></textarea>
+					<input type="submit" value="Send">
+				</form>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 John Doe</p>
+	</footer>
 </body>
-</html>
