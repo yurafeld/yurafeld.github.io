@@ -115,3 +115,32 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
   background-color: #900;
 }
+
+footer {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		
+		footer p {
+			margin: 0;
+		}
+		
+		.social-links {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-top: 20px;
+		}
+		
+		.social-link {
+			margin: 0 10px;
+			font-size: 20px;
+			color: #fff;
+			transition: color 0.3s ease;
+		}
+		
+		.social-link:hover {
+			color: #1abc9c;
+		}
