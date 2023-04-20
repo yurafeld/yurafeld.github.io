@@ -1,0 +1,25 @@
+.header {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.product {
+  width: 30%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.cart {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+}
