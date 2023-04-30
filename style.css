@@ -50,7 +50,7 @@ header {
 	background-position: center;
 	height: 100vh;
 	display: flex;
-	align-items: start;
+	align-items: left;
 }
 
 nav {
@@ -68,7 +68,7 @@ nav li {
 }
 
 nav a {
-	font-size: 24px;
+	font-size: 48px;
 	font-weight: 700;
 }
 
